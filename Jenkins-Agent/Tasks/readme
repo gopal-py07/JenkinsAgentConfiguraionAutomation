@@ -1,0 +1,32 @@
+pre-Requisite
+java 17 version need be set on both machine 
+python 3.12
+nssm (for windows environment only)
+
+Unzip file:Tasks.7z
+cd Tasks
+
+Open terminal and activate environment.
+win:
+	cd env_jagent/Script 
+	activate
+	Note: downlaod nssm (set path in environment varible path)
+
+Lnx:
+	source env_jagent/bin/activate
+
+pip install requrement.txt(optional for now)
+
+Navigate to code dir
+
+	Tasks\Jenkins_Agent
+
+Update the file as per your jenkins agent install(find it on jenkins master node.)
+	-config.json(agnet name and agent dir)
+	-.env(secrets of jenkins agent and email)
+
+Finally run below command on terminal 
+	python jenkins_agent_manager.py
+or python3 jenkins_agent_manager.py
+
+##########################Done############################################

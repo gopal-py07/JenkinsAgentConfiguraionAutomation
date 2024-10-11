@@ -1,0 +1,15 @@
+{
+    "JENKINS_SERVER_URL" : "http://172.27.231.128:8080",
+    "AGENT_DETAILS" : {
+        "LINUX" : {
+            "AGENT_NAME": "LNX_JenkinsAgent",
+            "AGENT_WORKDIR": "/var/lib/jenkins",
+            "USERNAME": "gopal"
+        },
+        "WINDOWS":{
+            "AGENT_NAME": "Win-JenkinsAgent",
+            "AGENT_WORKDIR": "C:\\Jenkins\\win\\agent",
+            "USERNAME": "INPUN0239NB"
+        }
+    }
+}
